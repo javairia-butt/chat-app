@@ -1,0 +1,62 @@
+/* Full page background image */
+.app-container {
+  height: 100vh;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1602524811234-3b0b7e1a2ff1?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Chat box styling */
+.chat-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Messages display area */
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.message {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  max-width: 80%;
+}
+
+/* Input + button area */
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+.input-area button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #0056b3;
+}
